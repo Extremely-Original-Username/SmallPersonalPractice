@@ -25,7 +25,7 @@ namespace UITest
             InitializeComponent();
             mainCanvas.Focus();
 
-            
+            //mainCanvas.Children.Add(); !!!!!
         }
 
         private void mainCanvas_KeyDown(object sender, KeyEventArgs e)
