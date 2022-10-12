@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UITest"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Canvas>
+        Title="UITest" Height="600" Width="800" Background="White" Foreground="White" BorderBrush="White" BorderThickness="1">
+    <Canvas x:Name="mainCanvas" Background="LightGray" Focusable="True" KeyDown="mainCanvas_KeyDown" KeyUp="mainCanvas_KeyUp">
         
         
         

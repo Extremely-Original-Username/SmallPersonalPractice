@@ -23,6 +23,19 @@ namespace UITest
         public MainWindow()
         {
             InitializeComponent();
+            mainCanvas.Focus();
+
+            
+        }
+
+        private void mainCanvas_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void mainCanvas_KeyUp(object sender, KeyEventArgs e)
+        {
+
         }
     }
 }
