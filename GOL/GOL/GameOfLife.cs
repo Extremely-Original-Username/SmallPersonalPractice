@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GOL
 {
-    internal class GameOfLife
+    public class GameOfLife
     {
         FixedGrid<int> grid;
         GameSettings settings;
@@ -22,7 +22,7 @@ namespace GOL
             randomiseCells(3);
         }
 
-        public void randomiseCells(int cellRarity)
+        public void randomiseCells(int cellRarity)//1 for all, 2 for half
         {
             Random random = new Random();
 

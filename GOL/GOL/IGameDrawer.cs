@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GOL
 {
-    internal interface IGameDrawer
+    public interface IGameDrawer
     {
         void draw(FixedGrid<int> grid, GameSettings gameSettings);
     }

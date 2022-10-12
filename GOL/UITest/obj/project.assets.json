@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "GOL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GOL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GOL.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "GOL/1.0.0": {
+      "type": "project",
+      "path": "../GOL/GOL.csproj",
+      "msbuildProject": "../GOL/GOL.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "GOL >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\jinnes\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\_TEMP\\SmallPersonalPractice\\GOL\\GOL\\GOL.csproj": {
+              "projectPath": "C:\\_TEMP\\SmallPersonalPractice\\GOL\\GOL\\GOL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
