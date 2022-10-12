@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_TEMP\\SmallPersonalPractice\\UITest\\UITest\\UITest.csproj": {}
+    "C:\\_TEMP\\SmallPersonalPractice\\GOL\\UITest\\UITest.csproj": {}
   },
   "projects": {
-    "C:\\_TEMP\\SmallPersonalPractice\\UITest\\UITest\\UITest.csproj": {
+    "C:\\_TEMP\\SmallPersonalPractice\\GOL\\UITest\\UITest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_TEMP\\SmallPersonalPractice\\UITest\\UITest\\UITest.csproj",
+        "projectUniqueName": "C:\\_TEMP\\SmallPersonalPractice\\GOL\\UITest\\UITest.csproj",
         "projectName": "UITest",
-        "projectPath": "C:\\_TEMP\\SmallPersonalPractice\\UITest\\UITest\\UITest.csproj",
+        "projectPath": "C:\\_TEMP\\SmallPersonalPractice\\GOL\\UITest\\UITest.csproj",
         "packagesPath": "C:\\Users\\jinnes\\.nuget\\packages\\",
-        "outputPath": "C:\\_TEMP\\SmallPersonalPractice\\UITest\\UITest\\obj\\",
+        "outputPath": "C:\\_TEMP\\SmallPersonalPractice\\GOL\\UITest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

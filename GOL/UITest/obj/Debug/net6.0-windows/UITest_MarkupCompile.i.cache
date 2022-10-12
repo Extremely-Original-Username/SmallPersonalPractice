@@ -4,12 +4,12 @@
 winexe
 C#
 .cs
-C:\_TEMP\SmallPersonalPractice\UITest\UITest\obj\Debug\net6.0-windows\
+C:\_TEMP\SmallPersonalPractice\GOL\UITest\obj\Debug\net6.0-windows\
 UITest
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\_TEMP\SmallPersonalPractice\UITest\UITest\App.xaml
+C:\_TEMP\SmallPersonalPractice\GOL\UITest\App.xaml
 11407045341
 
 51734018665
