@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GOL
 {
-    internal class GameSettings
+    public class GameSettings
     {
         public int width;
         public int height;
