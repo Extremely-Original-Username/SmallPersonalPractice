@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:UITest"
         mc:Ignorable="d"
         Title="UITest" Height="600" Width="800" Background="White" Foreground="White" BorderBrush="White" BorderThickness="1">
-    <Canvas x:Name="mainCanvas" Background="White" Focusable="True" KeyDown="mainCanvas_KeyDown" KeyUp="mainCanvas_KeyUp">
+    <Canvas x:Name="mainCanvas" Background="White" Focusable="True" KeyDown="mainCanvas_KeyDown" KeyUp="mainCanvas_KeyUp" MouseDown="mainCanvas_MouseDown">
 
         
 
