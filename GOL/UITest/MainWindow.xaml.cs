@@ -38,12 +38,38 @@ namespace UITest
 
         private void mainCanvas_KeyDown(object sender, KeyEventArgs e)
         {
-            
+            if (e.Key == Key.Space)
+            {
+                beginGame();
+            }
         }
 
         private void mainCanvas_KeyUp(object sender, KeyEventArgs e)
         {
 
+        }
+
+        private void mainCanvas_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            
+        }
+
+        public void beginGame()
+        {
+            Task.Run(() =>
+            {
+                bool over = false;
+
+                while (!over)
+                {
+                    Thread.Sleep(100);
+                    this.Dispatcher.Invoke(() =>
+                    {
+                        game.update();
+                    });
+                }
+
+            });
         }
     }
 }
